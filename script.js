@@ -8,16 +8,16 @@ async function getFriendsFact() {
         factText.textContent = 'Loading...';
         
         const facts = [
-            "Joey doesn't share food!",
-            "We were on a break!",
-            "Pivot! Pivot! Pivot!",
-            "How you doin'?",
-            "Smelly Cat, Smelly Cat, what are they feeding you?",
-            "Could I BE wearing any more clothes?",
-            "It's a moo point. It's like a cow's opinion; it doesn't matter.",
-            "Seven! Seven! Seven!",
-            "I'm not great at the advice. Can I interest you in a sarcastic comment?",
-            "Welcome to the real world. It sucks. You’re gonna love it."
+            "Friends is a popular TV show that aired from 1994 to 2004.",
+            "The show revolves around six friends living in New York City.",
+            "The main characters are Ross, Rachel, Monica, Chandler, Joey, and Phoebe.",
+            "Friends was created by David Crane and Marta Kauffman.",
+            "The show has a total of 10 seasons and 236 episodes.",
+            "Friends is known for its humor and memorable catchphrases.",
+            "The show has a large and dedicated fan base.",
+            "Friends has won numerous awards, including an Emmy for Outstanding Comedy Series.",
+            "The show's theme song is 'I'll Be There for You' by The Rembrandts.",
+            "Friends continues to be popular through reruns and streaming services."
         ];
         const randomIndex = Math.floor(Math.random() * facts.length);
         const data = { fact: facts[randomIndex] };
